@@ -9,7 +9,7 @@ def calculateChange(totalChange):
 
 while True:
     amount = input("Enter the total change amount: ")
-    if amount == "0":
+    if amount == "<" "0":
         break
     else:
         calculateChange(int(amount))
@@ -17,4 +17,3 @@ while True:
     continuePrompt = input("Would you like to continue? (Y/N): ")
     if continuePrompt.lower() != 'y':
         break
-
